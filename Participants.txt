@@ -1,1 +1,6 @@
-Emilio Rivero, Citlali 
+
+Proyect of enccryption and Decryption of texts.
+Participants:
+
+Emilio Rivero González
+Citlali López Cerón
