@@ -24,9 +24,9 @@ def morse__decryption(txt):
             letter=""
   return final_txt
 
-decrip_morse(". ")
 
-def morse_encryption():
+
+def morse_encryption(txt):
   final_txt=""
   number_spaces =0
   txt=txt.upper()
