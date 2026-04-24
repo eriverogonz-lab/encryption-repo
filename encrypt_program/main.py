@@ -1,8 +1,8 @@
 import argparse
 from caesar import caesar_encryption
 from caesar import caesar_decryption
-#from morse import morse_encryption
-#from morse import morse_decryption
+from Morse import morse_encryption
+from Morse import morse_decryption
 from file_functions import read_file, write_file
 
 def main():
@@ -26,9 +26,9 @@ def main():
 
     elif args.cipher == "morse":
         if args.mode == "encrypt":
-            result = morse_encrypt(text)
+            result = morse_encryption(text)
         else:
-            result = morse_decrypt(text)
+            result = morse_decryption(text)
 
     write_file(args.output_file, result)
 
